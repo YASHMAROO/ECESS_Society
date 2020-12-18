@@ -176,7 +176,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .about-container {
   font-family: 'Titillium Web', sans-serif;
 }
@@ -237,6 +237,11 @@ export default {
 
   .notice {
     padding-top: 2rem !important;
+
+    p {
+      font-size: 0.95rem !important;
+    }
+    
   }
 
   .carousel-inner {
