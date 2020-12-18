@@ -35,9 +35,10 @@
 h1 {
   font-family: sans-serif;
   text-decoration: underline;
-  color: blue;
+  color: rgba(27,12,89,0.9);
   font-weight: 600;
   font-size: 3.5rem;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 li {
@@ -47,6 +48,7 @@ li {
   margin: 10px auto;
   display: list-item;
   word-spacing: 10px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .col-md-12 {

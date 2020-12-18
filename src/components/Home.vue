@@ -22,13 +22,13 @@ import Mission from './MissionVIsion'
 import Contact from './Contact'
 
 export default {
-   components : {
+  components : {
      HomeCarousel,
      About,
      Mission,
      Contact
    }
-}
+};
 </script>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <h2 class="text-center font-weight-bold pt-5 pb-3">
-      CONTACT US
+      Contact Us
     </h2>
     <div class="row p-0 Contact-us">
       <div class="col-md-12 col-lg-5 m-0 pb-4 pt-4">
@@ -83,10 +83,16 @@ export default {
 </script>
 
 <style scoped>
+.container-fluid {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 h2 {
   font-size: 3.5rem;
   color: blue;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-family: 'Titillium Web', sans-serif;
+
 }
 .highlighted {
   color: #fa631c;

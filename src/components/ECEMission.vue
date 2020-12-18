@@ -34,10 +34,13 @@ export default {
 </script>
 
 <style scoped>
+.row {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 h1 {
-  font-family: sans-serif;
   text-decoration: underline;
-  color: blue;
+  color: rgba(27,12,89,0.9);
   font-weight: 600;
   font-size: 2.5rem;
 }

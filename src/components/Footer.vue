@@ -8,11 +8,11 @@
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-12 py-5">
+      <div class="col-md-12 pt-5">
         <div class="mb-5 flex-center">
 
           <!-- Facebook -->
-          <a class="fb-ic">
+          <a class="fb-ic" href="https://www.facebook.com/ecess.nitdgp/">
             <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!-- Twitter -->
@@ -24,7 +24,7 @@
             <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!--Linkedin -->
-          <a class="li-ic">
+          <a class="li-ic" href="https://www.linkedin.com/in/ecess-nitdgp-512b351b7?originalSubdomain=in">
             <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!--Instagram-->
@@ -32,8 +32,8 @@
             <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!--Pinterest-->
-          <a class="pin-ic">
-            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          <a class="pin-ic" href="mailto: ecess.nitdgp.works@gmail.com">
+            <i class="fa fa-envelope fa-lg white-text fa-2x"> </i>
           </a>
         </div>
       </div>
@@ -55,7 +55,7 @@
 </template>
 
 <style scoped>
-.fab:hover {
+.fab:hover, .fa:hover {
     transition: 0.3s ease-in;
     font-size: 4vh;
 }

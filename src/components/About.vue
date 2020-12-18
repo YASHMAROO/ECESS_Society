@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container about-container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-7 about">
         <h1 class="text-center about-heading">
@@ -159,20 +159,39 @@
 </template>
 
 <script>
-export default {};
+import common from '../services/common.js'
+
+export default {
+  data () {
+    return {
+      notices: []
+    }
+  },
+  created () {
+    common.getNotice().then(response => {
+      this.notices = response.data
+      console.log(this.notices)
+    })
+  }
+};
 </script>
 
 <style scoped>
+.about-container {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .about-heading, .notice-heading {
   font-size: 3rem !important;
   text-decoration: underline;
-  color: blue;
+  color: rgba(27,12,89,0.9);
+  font-weight: 900;
 }
 
 .about-caption {
   font-size: 1.4rem !important;
   word-spacing: 10px;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .col-xl-7 , .col-xl-4, .col-lg-7, .col-lg-4 {
