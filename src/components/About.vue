@@ -225,6 +225,10 @@ export default {
   font-size: 1.2rem;
 }
 
+#noticeCarousel li {
+  list-style-type: none;
+}
+
 @media only screen and (max-width: 576px) {
   .about-heading {
     font-size: 2.5rem !important;
