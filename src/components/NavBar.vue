@@ -13,10 +13,7 @@
           <router-link tag="li" class="nav-item" data-toggle="collapse" data-target="#navbar-links" to="/">
             <a class="nav-link">Home</a>
           </router-link>
-          <router-link tag="li" class="nav-item" data-toggle="collapse" data-target="#navbar-links" to="/acad">
-            <a class="nav-link">Academics</a>
-          </router-link>
-          <router-link tag="li" class="nav-item" data-toggle="collapse" data-target="#navbar-links" to="/https://nitdgp.ac.in/department/EC/people">
+          <router-link tag="li" class="nav-item" data-toggle="collapse" data-target="#navbar-links" to="/faculty">
             <a class="nav-link">Faculty</a>
           </router-link>
           <router-link tag="li" class="nav-item" data-toggle="collapse" data-target="#navbar-links" to="/team">

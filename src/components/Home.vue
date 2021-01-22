@@ -1,18 +1,9 @@
 <template>
   <div>
     <HomeCarousel />
-    <br>
-    <br>
-    <br>
     <About />
-    <br>
-    <br>
     <Mission />
-    <br>
-    <br>
     <Contact />
-    <br>
-    <br>
   </div>
 </template>
 <script>

@@ -86,7 +86,6 @@
 h1 {
     font-size: 3rem !important;
     font-weight: 600;
-    text-decoration: underline;
     color: rgba(27,12,89,0.9);
 }
 

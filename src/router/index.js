@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from "../components/Home"
 import ECE from '../components/ECEdept'
 import Team from '../components/Team'
+import Faculty from '../components/Faculty'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
             path: '/team',
             name: 'Team',
             component: Team
+        },
+        {
+            path: '/faculty',
+            name: 'Faculty',
+            component: Faculty
         }
     ]
 })

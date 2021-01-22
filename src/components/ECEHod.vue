@@ -39,6 +39,8 @@ export default {
 .row {
     box-shadow: 0px 6px 5px 0px rgba(176, 164, 176, 1);
     font-family: 'Titillium Web', sans-serif;
+    margin-top: -3rem !important;
+    text-align: justify;
 }
 
 .hod-image {

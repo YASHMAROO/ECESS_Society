@@ -179,11 +179,11 @@ export default {
 <style lang="scss" scoped>
 .about-container {
   font-family: 'Titillium Web', sans-serif;
+  text-align: justify !important;
 }
 
 .about-heading, .notice-heading {
   font-size: 3rem !important;
-  text-decoration: underline;
   color: rgba(27,12,89,0.9);
   font-weight: 900;
 }

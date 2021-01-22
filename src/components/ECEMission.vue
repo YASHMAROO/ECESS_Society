@@ -36,10 +36,10 @@ export default {
 <style scoped>
 .row {
   font-family: 'Titillium Web', sans-serif;
+  margin-top: -3rem !important;
 }
 
 h1 {
-  text-decoration: underline;
   color: rgba(27,12,89,0.9);
   font-weight: 600;
   font-size: 2.5rem;
@@ -48,7 +48,7 @@ h1 {
 li {
   font-size: 1rem;
   font-weight: 430;
-  text-align: left;
+  text-align: justify;
   margin: 10px auto;
   display: list-item;
   word-spacing: 5px;
