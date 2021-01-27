@@ -70,28 +70,6 @@
                   </div>
                 </div>
               </li>
-              <li>
-                <div class="row inbox mt-5 mr-3 ml-3">
-                  <div class="date col-2">
-                    <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
-                  </div>
-                  <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="row inbox mt-5 mb-5 mr-3 ml-3">
-                  <div class="date col-2">
-                    <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
-                  </div>
-                  <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
-                  </div>
-                </div>
-              </li>
             </div>
 
             <div class="carousel-item">
@@ -119,28 +97,6 @@
               </li>
               <li>
                 <div class="row inbox mt-5 mr-3 ml-3">
-                  <div class="date col-2">
-                    <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
-                  </div>
-                  <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="row inbox mt-5 mr-3 ml-3">
-                  <div class="date col-2">
-                    <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
-                  </div>
-                  <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="row inbox mt-5 mb-5 mr-3 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
                     <p class="text-center">Dec</p>
@@ -189,7 +145,7 @@ export default {
 }
 
 .about-caption {
-  font-size: 1.4rem !important;
+  font-size: 1.1rem !important;
   word-spacing: 10px;
   font-weight: 800;
 }
@@ -255,11 +211,11 @@ export default {
 
 @media only screen and (max-width: 776px) and (min-width: 576px) {
   .about-heading {
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
   }
 
   .about-caption {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
     word-spacing: 5px;
     font-weight: 600; 
   }
@@ -269,15 +225,15 @@ export default {
   } 
 
   .notice-heading {
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
   }
 
   .date {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   .title {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }  
 }
 
@@ -287,7 +243,7 @@ export default {
   }
 
   .about-caption {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
     word-spacing: 10px;
     font-weight: 600; 
   }
@@ -301,11 +257,11 @@ export default {
   }
 
   .date {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 
   .title {
-    font-size: 1.7rem;
+    font-size: 1rem;
   }  
 }
 </style>
