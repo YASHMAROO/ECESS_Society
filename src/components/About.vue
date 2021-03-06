@@ -60,7 +60,7 @@
                 </div>
               </li>
               <li>
-                <div class="row inbox mt-5 mr-3 ml-3">
+                <div class="row inbox mt-5 mb-5 mr-3 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
                     <p class="text-center">Dec</p>
@@ -96,7 +96,7 @@
                 </div>
               </li>
               <li>
-                <div class="row inbox mt-5 mr-3 ml-3">
+                <div class="row inbox mt-5 mr-3 mb-5 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
                     <p class="text-center">Dec</p>

@@ -1,442 +1,134 @@
 <template>
-    <!-- Section: Team v.1 -->
-    <section class="team-section text-center my-5 p-5">
-
-    <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold my-5">Our amazing team</h2>
-    <!-- Section description -->
-    <p class="grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
-        eum porro a pariatur veniam.</p>
-
-    <!-- Grid row -->
-    <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Anna Williams</h5>
-            <p class="text-uppercase blue-text"><strong>Patron</strong></p>
-            <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                adipisci sed quia non numquam modi tempora eius.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Twitter -->
-                <a class="p-2 fa-lg tw-ic">
-                <i class="fab fa-twitter blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
+    <section class="our-webcoderskull padding-lg text-center">
+        <div class="container">
+            <h2 class="heading font-weight-bold my-5">Our amazing team</h2>
+            <ul class="row">
+                <li class="col-12 col-md-6 col-lg-3" v-for="(member,i) in members" :key="i">
+                <div class="cnt-block equal-hight" style="height: 349px;">
+                    <figure>
+                        <img :src="member.image" class="img-responsive" alt />
+                    </figure>
+                    <h3>{{ member.name }}</h3>
+                    <ul class="follow-us clearfix">
+                    <li>
+                        <a class="p-2 fa-lg ins-ic" :href="member.email">
+                        <i class="fas fa-envelope blue-text"></i>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                </li>
             </ul>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">John Doe</h5>
-            <p class="text-uppercase blue-text"><strong>Officiating Head</strong></p>
-            <p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium
-                doloremque rem laudantium totam aperiam.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Maria Smith</h5>
-            <p class="text-uppercase blue-text"><strong>Faculty Advisor</strong></p>
-            <p class="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim est fugiat nulla id eu laborum.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-                <!-- Dribbble -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-dribbble blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Tom Adams</h5>
-            <p class="text-uppercase blue-text"><strong>Faculty Advisor</strong></p>
-            <p class="grey-text">Perspiciatis repellendus ad odit consequuntur, eveniet earum nisi qui consectetur
-                totam officia voluptates perferendis voluptatibus aut.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Github -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-github blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-
-    <div class="row pt-5">
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Anna Williams</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                adipisci sed quia non numquam modi tempora eius.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Twitter -->
-                <a class="p-2 fa-lg tw-ic">
-                <i class="fab fa-twitter blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">John Doe</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium
-                doloremque rem laudantium totam aperiam.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Maria Smith</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim est fugiat nulla id eu laborum.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-                <!-- Dribbble -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-dribbble blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Tom Adams</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Perspiciatis repellendus ad odit consequuntur, eveniet earum nisi qui consectetur
-                totam officia voluptates perferendis voluptatibus aut.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Github -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-github blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-    </div>
-
-    <div class="row pt-5">
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Anna Williams</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                adipisci sed quia non numquam modi tempora eius.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Twitter -->
-                <a class="p-2 fa-lg tw-ic">
-                <i class="fab fa-twitter blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">John Doe</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium
-                doloremque rem laudantium totam aperiam.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Maria Smith</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim est fugiat nulla id eu laborum.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-                <!-- Dribbble -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-dribbble blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Tom Adams</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Perspiciatis repellendus ad odit consequuntur, eveniet earum nisi qui consectetur
-                totam officia voluptates perferendis voluptatibus aut.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Github -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-github blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-    </div>
-
-    <div class="row pt-5">
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Anna Williams</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                adipisci sed quia non numquam modi tempora eius.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Twitter -->
-                <a class="p-2 fa-lg tw-ic">
-                <i class="fab fa-twitter blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">John Doe</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium
-                doloremque rem laudantium totam aperiam.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Maria Smith</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim est fugiat nulla id eu laborum.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram blue-text"> </i>
-                </a>
-                <!-- Dribbble -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-dribbble blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-md-6">
-            <div class="avatar mx-auto">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1"
-                alt="Sample avatar">
-            </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Tom Adams</h5>
-            <p class="text-uppercase blue-text"><strong>Alumni Relations Mentor</strong></p>
-            <p class="grey-text">Perspiciatis repellendus ad odit consequuntur, eveniet earum nisi qui consectetur
-                totam officia voluptates perferendis voluptatibus aut.</p>
-            <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                <i class="fab fa-facebook-f blue-text"> </i>
-                </a>
-                <!-- Github -->
-                <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-github blue-text"> </i>
-                </a>
-            </ul>
-        </div>
-        <!-- Grid column -->
-    </div>
-
     </section>
-    <!-- Section: Team v.1 -->
 </template>
 
 <script>
-export default {
+import common from "../services/common";
 
-}
+export default {
+  data() {
+    return {
+      members: []
+    };
+  },
+  created() {
+    common.getTeam().then(res => {
+      this.members = res.data;
+      this.members.splice(0, 12);
+    });
+  }
+};
 </script>
 
 <style scoped>
+.row.heading h2 {
+  color: #fff;
+  font-size: 52.52px;
+  line-height: 95px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 40px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.heading.heading-icon {
+  display: block;
+}
+.padding-lg {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.our-webcoderskull .cnt-block:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border: 0;
+}
+.our-webcoderskull .cnt-block {
+  float: left;
+  width: 100%;
+  background: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border: 2px solid #d5d5d5;
+  margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure {
+  width: 148px;
+  height: 148px;
+  border-radius: 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img {
+  width: 148px;
+  height: 148px;
+  border-radius: 100%;
+}
+.our-webcoderskull .cnt-block h3 {
+  color: #2a2a2a;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-transform: uppercase;
+}
+.our-webcoderskull .cnt-block h3 a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover {
+  color: #337ab7;
+}
+.our-webcoderskull .cnt-block p {
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.our-webcoderskull .cnt-block .follow-us {
+  margin: 20px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li {
+  display: inline-block;
+  width: auto;
+  margin: 0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa {
+  font-size: 24px;
+  color: #767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover {
+  color: #025a8e;
+}
+
 .fab:hover {
-    transition: 0.2s ease-in;
-    font-size: 3vh;
-    color: #00008f !important;
+  transition: 0.2s ease-in;
+  font-size: 3vh;
+  color: #00008f !important;
 }
 </style>

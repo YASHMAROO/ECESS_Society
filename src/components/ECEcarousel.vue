@@ -34,7 +34,6 @@
                     <img class="responsive" src="@/assets/0.jpg" alt="First slide" />
                     <div class="carousel-caption">
                     <h5 class="heading">NIT Durgapur</h5>
-                    <p class="subheading">Duis aute irure dolor in reprehenderit in voluptate</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -42,15 +41,13 @@
                     <img class="responsive" src="@/assets/ECE Dept.jpeg" alt="Second slide" />
                     <div class="carousel-caption">
                     <h5 class="heading">ECE Department</h5>
-                    <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="cover"></div>
                     <img class="responsive" src="@/assets/hall 1.jpg" alt="Third slide" />
                     <div class="carousel-caption">
-                    <h5 class="heading">Lorem Ipsum</h5>
-                    <p class="subheading">Excepteur sint occaecat cupidatat non proident</p>
+                    <h5 class="heading">Hall 1</h5>
                     </div>
                 </div>
                 </div>
