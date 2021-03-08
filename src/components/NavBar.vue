@@ -2,8 +2,7 @@
   <div class="container-fluid navbar-sec">
     <nav class="navbar fixed-top navbar-inverse navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="/">
-        <img src="@/assets/nitdgp_logo_black.png" height="50" alt="mdb logo">
-        <span class="part1"><span class="highlighted"> ECESS<br></span></span>
+        <img src="@/assets/ecess-removebg-preview.png" height="60" width='110' alt="mdb logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon" />
