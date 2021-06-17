@@ -18,9 +18,6 @@
           <router-link tag="li" class="nav-item" data-toggle="collapse" data-target="#navbar-links" to="/team">
             <a class="nav-link">Team</a>
           </router-link>
-          <router-link tag="li" class="nav-item" data-toggle="collapse" data-target="#navbar-links" to="/achievements">
-            <a class="nav-link">Achievements</a>
-          </router-link>
           <router-link tag="li" class="nav-item" data-toggle="collapse" data-target="#navbar-links" to="/ecedept">
             <a class="nav-link">ECE Dept</a>
           </router-link>

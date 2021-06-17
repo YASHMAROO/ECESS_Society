@@ -41,10 +41,10 @@
                 <div class="row inbox mt-5 mr-3 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
+                    <p class="text-center">July</p>
                   </div>
                   <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
+                    <p class="text-center pt-3">Recent Notices are shown here.</p>
                   </div>
                 </div>
               </li>
@@ -52,10 +52,10 @@
                 <div class="row inbox mt-5 mr-3 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
+                    <p class="text-center">July</p>
                   </div>
                   <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
+                    <p class="text-center pt-3">Recent Notices are shown here.</p>
                   </div>
                 </div>
               </li>
@@ -63,10 +63,10 @@
                 <div class="row inbox mt-5 mb-5 mr-3 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
+                    <p class="text-center">July</p>
                   </div>
                   <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
+                    <p class="text-center pt-3">Recent Notices are shown here.</p>
                   </div>
                 </div>
               </li>
@@ -77,10 +77,10 @@
                 <div class="row inbox mt-5 mr-3 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
+                    <p class="text-center">July</p>
                   </div>
                   <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
+                    <p class="text-center pt-3">Recent Notices are shown here.</p>
                   </div>
                 </div>
               </li>
@@ -88,10 +88,10 @@
                 <div class="row inbox mt-5 mr-3 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
+                    <p class="text-center">July</p>
                   </div>
                   <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
+                    <p class="text-center pt-3">Recent Notices are shown here.</p>
                   </div>
                 </div>
               </li>
@@ -99,10 +99,10 @@
                 <div class="row inbox mt-5 mr-3 mb-5 ml-3">
                   <div class="date col-2">
                     <p class="text-center pt-2">25</p>
-                    <p class="text-center">Dec</p>
+                    <p class="text-center">July</p>
                   </div>
                   <div class="title col-10">
-                    <p class="text-center pt-3">Lorem Ipsum is the best paragraph generator</p>
+                    <p class="text-center pt-3">Recent Notices are shown here.</p>
                   </div>
                 </div>
               </li>

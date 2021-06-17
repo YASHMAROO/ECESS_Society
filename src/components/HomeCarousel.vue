@@ -3,7 +3,6 @@
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -18,13 +17,6 @@
         <img class="responsive" src="@/assets/ECE Dept.jpeg" alt="Second slide" />
         <div class="carousel-caption">
           <h5 class="heading">ECE Department</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="cover"></div>
-        <img class="responsive" src="@/assets/hall 1.jpg" alt="Third slide" />
-        <div class="carousel-caption">
-          <h5 class="heading">Lorem Ipsum</h5>
         </div>
       </div>
     </div>

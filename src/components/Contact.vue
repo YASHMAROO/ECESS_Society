@@ -57,22 +57,12 @@ export default {
     return {
       contacts: [
         {
-          name: "Lorem Ipsum",
+          name: "Avinash Kumar",
           phone: "+91 98765 43210",
           mail: "loremispum@gmail.com"
         },
         {
-          name: "Lorem Ipsum",
-          phone: "+91 98765 43210",
-          mail: "loremispum@gmail.com"
-        },
-        {
-          name: "Lorem Ipsum",
-          phone: "+91 98765 43210",
-          mail: "loremispum@gmail.com"
-        },
-        {
-          name: "Lorem Ipsum",
+          name: "Sahaj Kumar Jha",
           phone: "+91 98765 43210",
           mail: "loremispum@gmail.com"
         }

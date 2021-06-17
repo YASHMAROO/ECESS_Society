@@ -7,10 +7,10 @@
   </div>
 </template>
 <script>
-import HomeCarousel from './HomeCarousel'
-import About from './About'
-import Mission from './MissionVIsion'
-import Contact from './Contact'
+import HomeCarousel from '../components/HomeCarousel'
+import About from '../components/About'
+import Mission from '../components/MissionVIsion'
+import Contact from '../components/Contact'
 
 export default {
   components : {

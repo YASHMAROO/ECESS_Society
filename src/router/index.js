@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from "../components/Home"
-import ECE from '../components/ECEdept'
-import Team from '../components/Team'
-import Faculty from '../components/Faculty'
+import Home from '../views/Home'
+import ECE from '../views/ECEdept'
+import Team from '../views/Team'
+import Faculty from '../views/Faculty'
 
 Vue.use(Router)
 

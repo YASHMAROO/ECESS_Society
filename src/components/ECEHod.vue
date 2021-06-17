@@ -1,26 +1,24 @@
 <template>
   <div class="row"> 
       <div class="col-xs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
-          <img class="hod-image m-5" src="@/assets/ECEHod.jpeg" alt="">
+          <img class="hod-image m-5" src="@/assets/Durbadal Mandal.jpeg" alt="ECE HOD">
       </div>
       <div class="col-md-2 col-lg-2 col-xl-2"></div>
       <div class="col-xs-12 col-xs-12 col-md-6 col-lg-6 col-xl-6">
           <div class="about-hod mt-2 mb-2">
-              <div class="name">Prof. Asis Kumar Mal</div>
+              <div class="name">Prof. Durbadal Mandal</div>
               <div class="designation">Head of the Department</div>
               <div class="contact pt-4">
                   <div class="head">Contact (Head)</div>
                   <div class="mail">
-                      <i class="fas fa-envelope"></i><span class="mail-id"> akmal@ece.nitdgp.ac.in</span>
+                      <i class="fas fa-envelope"></i><span class="mail-id"> durbadal.mondal@ece.nitdgp.ac.in</span>
                   </div>
                   <div class="research pt-3">
                       <div class="rhead">Research Interests</div>
                       <ul>
-                          <li>Analog, and Mixed-Signal VLSI</li>
-                          <li>Digitally Assisted Analog Circuits</li>
-                          <li>Simulator Assisted Analog Design</li>
-                          <li>Embedded System Design</li>
-                          <li>Integer Sequences</li>
+                          <li>Antenna Optimization</li>
+                          <li>Signal Processing</li>
+                          <li>Soft Computing</li>
                       </ul>
                   </div>
               </div>

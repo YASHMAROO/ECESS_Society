@@ -14,9 +14,9 @@
 </template>
 
 <script>
-import Carousel from './ECEcarousel'
-import Mission from './ECEMission'
-import HOD from './ECEHod'
+import Carousel from '../components/ECEcarousel'
+import Mission from '../components/ECEMission'
+import HOD from '../components/ECEHod'
 
 export default {
     components : {
