@@ -58,13 +58,13 @@ export default {
       contacts: [
         {
           name: "Avinash Kumar",
-          phone: "+91 98765 43210",
-          mail: "loremispum@gmail.com"
+          phone: "+91 62051 79547",
+          mail: "avinashkumar.99911@gmail.com"
         },
         {
           name: "Sahaj Kumar Jha",
-          phone: "+91 98765 43210",
-          mail: "loremispum@gmail.com"
+          phone: "+91 86973 29575",
+          mail: "sahajj37@gmail.com"
         }
       ]
     };
